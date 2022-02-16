@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'MazzardM';
+    src: url('../fonts/MazzardM-Medium.ttf');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'StolzlDisplay';
+    src: url('../fonts/StolzlDisplay-Light.ttf');
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'StolzlDisplay';
+    src: url('../fonts/StolzlDisplay-Normal.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'StolzlDisplay';
+    src: url('../fonts/StolzlDisplay-Regular.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'StolzlDisplay';
+    src: url('../fonts/StolzlDisplay-Medium.ttf');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'TTFirsNeue';
+    src: url('../fonts/TTFirsNeue-Medium.ttf');
+    font-style: normal;
+    font-weight: 500;
+}
+
+$default-font : 'StolzlDisplay';
+$second-font: 'MazzardM';
+$third-font: 'TTFirsNeue';
+$yellow: #F7C800;
+$black: #171717;
+
+html,
+body{
+    font-size: 17px;
+    font-family: $default-font;
+    color: $black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-bottom: 1.7rem;
+}
+
+h3{
+    text-transform: uppercase;
+    font-size: 1.58rem;
+    font-weight: 400;
+    margin-bottom: 27px;
+}
